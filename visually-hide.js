@@ -21,9 +21,23 @@ if (typeof process.argv[2] === 'undefined') {
 	}
 }
 
+$('li a').each((i, element) => {
+	var inner = $('a').text();
+	//console.log(inner);	
+	if ($(element).text() === '1' ||
+		$(element).text() === '2' ||
+		$(element).text() === '3'
+	) {
+		var label = $(element).parent('li').children('a').first().text();
+		console.log(label);
+		var newNode = '<span class="visually-hide">' + label + '</span> ';
+		$(element).prepend(newNode);
+	}
+});
+
 
 // Write htmlFile variable to the disk with newFileName as the name
 fs.writeFile(newFileName, $.html(), (err) => {
 	if (err) throw err;
-	console.log('\n' +'Your new file has been created in', newFileName);
+	console.log('\n' + 'Your new file has been created in', newFileName);
 });
