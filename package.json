@@ -1,0 +1,16 @@
+{
+  "name": "replace-links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "visually-hide.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-cheerio": "^2.0.1",
+    "install": "^0.10.1",
+    "npm": "^4.5.0"
+  }
+}
