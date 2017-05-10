@@ -1,4 +1,4 @@
--/*jshint esversion: 6 */
+/*jshint esversion: 6 */
 (function visuallyHide() {
 	'use strict';
 	// npm dependencies
@@ -31,14 +31,16 @@
 	// Add visually-hide class to non-distiunguishable links
 	function findAndAdd() {
 		// Iterate through all the list items
-		$('li a').each((i, element) => {
+		$('td a').each((i, element) => {
 			// Non-distinguishable links
-			if ($(element).text() === '1' ||
-				$(element).text() === '2' ||
-				$(element).text() === '3'
+			if ($(element).text() === 'Agenda' ||
+			    $(element).text() === 'Budget Update' ||
+				$(element).text() === 'Minutes' ||
+				$(element).text() === "Managers\' Report" ||
+				$(element).text() === "Bond Report"				
 			) {
 				// Get parent text to add as label for ND links
-				let label = $(element).parent('li').children('a').first().text();
+				let label = $(element).parentsUntil('tr').children('th').first().text();
 				console.log(label);
 				// Complete node to be added to the DOM
 				let newNode = '<span class="visually-hide">' + label + '</span> ';
