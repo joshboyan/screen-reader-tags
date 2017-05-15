@@ -6,6 +6,14 @@ I will make a number of flavors with different use cases.
 
 The first use case a list of items with links using numbers as anchor text. E.G.:
 
-- Red Elderberry (Sambucus racemosa) 1 2 3
-- Red Huckleberry (Vaccinium parvifolium) 1 2 3
-- Red Osier Dogwood (Cornus stolonifera) 1 2
+- Red Elderberry (Sambucus racemosa) _1_ _2_ _3_
+- Red Huckleberry (Vaccinium parvifolium) _1_ _2_ _3_
+- Red Osier Dogwood (Cornus stolonifera) _1_ _2_
+
+The second use case is a table with a date in the first column and repetitive link text to materials.
+
+|Date   |Agenda|Minutes|
+|-------|------|-------|
+|17Feb17|_Agenda_|_Minutes_|
+|24Feb17|_Agenda_|_Minutes_|
+|3Mar17|_Agenda_|_Minutes_|
