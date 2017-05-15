@@ -10,6 +10,8 @@ The first use case a list of items with links using numbers as anchor text. E.G.
 - Red Huckleberry (Vaccinium parvifolium) _1_ _2_ _3_
 - Red Osier Dogwood (Cornus stolonifera) _1_ _2_
 
+[Live List Example](http://www.pcc.edu/resources/rcesc/habitat/plants.html "Portland Community College Plants")
+
 The second use case is a table with a date in the first column and repetitive link text to materials.
 
 |Date   |Agenda|Minutes|
@@ -17,3 +19,5 @@ The second use case is a table with a date in the first column and repetitive li
 |17Feb17|_Agenda_|_Minutes_|
 |24Feb17|_Agenda_|_Minutes_|
 |3Mar17|_Agenda_|_Minutes_|
+
+[Live Table Example](https://www.pcc.edu/resources/academic/eac/curriculum/curriculum-committee/archive.html "Portland Community College Curriculum Commitee Archive")
